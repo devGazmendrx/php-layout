@@ -11,7 +11,7 @@ predefined layouts.
 ## Feedback
 
 Feel free to open up an issue to discuss any feedback you might have regarding my approach.
-You can also connect with me on [LinkedIn](https://www.linkedin.com/in/gazmendrxdev/) and/or e-mail me at dexterr.gr@gmail.com :)
+You can also connect with me on [LinkedIn](https://www.linkedin.com/in/gazmendrxdev/) and/or e-mail me at gazmendrx@gmail.com :)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
