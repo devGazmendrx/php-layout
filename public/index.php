@@ -2,7 +2,7 @@
 
 define("APP_BASE_PATH", __DIR__);
 
-require_once("vendor/autoload.php");
+require_once("../vendor/autoload.php");
 
 use App\PHPLayout\PHPLayout;
 
@@ -23,4 +23,4 @@ $pageParams = [
 /**
  * loadPage(string $layoutName, string $pageName, array $pageParams)
  */
-$phpLayout->loadPage("mainLayout", "welcome", $pageParams);
+$phpLayout->loadPage("mainLayout", "about", $pageParams);
