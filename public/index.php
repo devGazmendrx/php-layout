@@ -6,7 +6,6 @@ require_once("../vendor/autoload.php");
 
 use App\PHPLayout\PHPLayout;
 
-$phpLayout = new PHPLayout(APP_BASE_PATH);
 $pageParams = [
     "pageTitle" => "PHPLayout Welcome - By Gazmendrx",
     "customScripts" => [
@@ -23,4 +22,4 @@ $pageParams = [
 /**
  * loadPage(string $layoutName, string $pageName, array $pageParams)
  */
-$phpLayout->loadPage("mainLayout", "about", $pageParams);
+PHPLayout::loadPage("mainLayout", "welcome", $pageParams);

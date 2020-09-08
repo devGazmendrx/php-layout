@@ -7,12 +7,12 @@
 
             switch($headScript['type']){
                 case "css":
-                    $link = "public/css/$scriptName.css";
+                    $link = "css/$scriptName.css";
                     echo "<link rel='stylesheet' href='$link' />";
                 break;
 
                 case "js":
-                    $link = "public/js/$scriptName.js";
+                    $link = "js/$scriptName.js";
                     echo "<script src='$link'></script>";
                 break;
 

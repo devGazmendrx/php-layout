@@ -4,16 +4,9 @@ namespace App\PHPLayout;
 
 class PHPLayout{
 
-    private $appBasePath;
+    public function __construct(){}
 
-    public function __construct($appBasePath){
-
-        $this->appBasePath = $appBasePath;
-    }
-
-    public function loadPage($layout, $page, $params = []){
-        $params = $params;
-        $pageName = $page;
+    public static function loadPage($layout, $page, $params = []){
         include_once("layouts/$layout.php");
     }
 }

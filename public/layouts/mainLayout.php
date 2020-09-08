@@ -11,12 +11,12 @@
     <!-- custom head scripts -->
     <?php include_once("layouts/components/headScripts.php"); ?>
     
-    <title><?php echo (!empty($params['pageTitle'])) ? $params['pageTitle']." - &copy;".date("Y") : ucfirst($pageName)." - &copy;".date("Y"); ?></title>
+    <title><?php echo (!empty($params['pageTitle'])) ? $params['pageTitle']." - &copy;".date("Y") : ucfirst($page)." - &copy;".date("Y"); ?></title>
   </head>
   <body>
 
     <div class="container-fluid">
-        <?php include_once("pages/$pageName.php"); ?>
+        <?php include_once("pages/$page.php"); ?>
     </div>
 
     <!-- Optional JavaScript -->

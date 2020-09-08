@@ -8,7 +8,7 @@
             switch($bodyScript['type']){
                 
                 case "js":
-                    $link = "public/js/$scriptName.js";
+                    $link = "js/$scriptName.js";
                     echo "<script src='$link'></script>";
                 break;
 
